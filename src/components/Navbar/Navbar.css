@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #121249;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.navbar h1 {
+  font-size: 1.6rem;
+  color: aliceblue;
+}
+
+.nav-links {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
