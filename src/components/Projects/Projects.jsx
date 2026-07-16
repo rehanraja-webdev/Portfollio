@@ -17,7 +17,7 @@ const projects = [
   {
     title: "TeamTask",
     description:
-      "Industry-level project management platform with authentication, task assignment, comments, and team collaboration.",
+      "Industry-level project management platform with authentication, Roll Based Access Controll (RBAC), task assignment, comments, and team collaboration.",
     image: "",
     tech: ["React", "Express", "MongoDB", "JWT"],
     github: "https://github.com/rehanraja-webdev/team-task-manager",
