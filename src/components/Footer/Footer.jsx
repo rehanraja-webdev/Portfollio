@@ -44,7 +44,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <span>
-            © {new Date().getFullYear()} Rehan Raza. All rights reserved.
+            © {new Date().getFullYear()} Rehan Raja. All rights reserved.
           </span>
         </div>
       </div>

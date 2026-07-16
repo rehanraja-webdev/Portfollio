@@ -37,7 +37,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://linkedin.com/in/your-linkedin-profile"
+              href="https://linkedin.com/in/rehan-raja-devs"
               target="_blank"
               rel="noreferrer"
             >

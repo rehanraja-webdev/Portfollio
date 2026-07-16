@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
 const Contact = () => {
   return (
     <section id="contact" className="contact-container">
-      <span className="section-tag">GET IN TOUCH</span>
+      <span className="section-tag">CONTACT</span>
 
       <h2>
         Let's <span>Connect</span>
@@ -53,7 +53,7 @@ const Contact = () => {
         >
           <FaInstagram />
           <h3>Instagram</h3>
-          <span>Have a quick chat</span>
+          <span>Get in touch</span>
         </a>
       </div>
     </section>

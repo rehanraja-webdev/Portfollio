@@ -7,14 +7,10 @@ import {
   FaNodeJs,
   FaGitAlt,
   FaGithub,
+  FaJava,
 } from "react-icons/fa";
 
-import {
-  SiExpress,
-  SiMongodb,
-  SiMysql,
-  SiPostman,
-} from "react-icons/si";
+import { SiExpress, SiMongodb, SiMongoose, SiPostman } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -26,8 +22,8 @@ const Skills = () => {
       </h2>
 
       <p className="skills-description">
-        I enjoy building modern web applications and continuously expanding
-        my technical expertise. Here are the technologies and tools I use
+        I enjoy building modern web applications and continuously expanding my
+        technical expertise. Here are the technologies and tools I use
         throughout my development journey.
       </p>
 
@@ -45,6 +41,11 @@ const Skills = () => {
         <div className="skill-card">
           <FaJs />
           <span>JavaScript</span>
+        </div>
+
+        <div className="skill-card">
+          <FaJava />
+          <span>Java</span>
         </div>
 
         <div className="skill-card">
@@ -68,8 +69,8 @@ const Skills = () => {
         </div>
 
         <div className="skill-card">
-          <SiMysql />
-          <span>MySQL</span>
+          <SiMongoose />
+          <span>Mongoose</span>
         </div>
 
         <div className="skill-card">
