@@ -70,15 +70,11 @@
 
 .resume-btn {
   padding: 10px 20px;
-
   border-radius: 10px;
-
   text-decoration: none;
-
+  background: transparent;
+  border: 2px solid white;
   color: white;
-
-  background: linear-gradient(135deg, #8b5cf6, #00e5ff);
-
   font-weight: 600;
 
   transition: 0.3s;
@@ -91,9 +87,17 @@
 
 @media (max-width: 768px) {
   .nav-links {
+    gap: 1rem;
+  }
+  .resume-btn {
     display: none;
   }
+}
 
+@media (max-width: 562px) {
+  .nav-links {
+    display: none;
+  }
   .resume-btn {
     display: none;
   }

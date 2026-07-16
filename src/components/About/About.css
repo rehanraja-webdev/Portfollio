@@ -98,9 +98,4 @@
   .about-container h2 {
     font-size: 2rem;
   }
-
-  .about-stats {
-    flex-direction: column;
-    align-items: center;
-  }
 }
