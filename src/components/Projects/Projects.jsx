@@ -18,7 +18,7 @@ const projects = [
   {
     title: "TeamTask",
     description:
-      "Industry-level project management platform with authentication, RBAC, task assignment, comments, and team collaboration.",
+      "A project management platform with authentication, RBAC, task assignment, and team collaboration. Note: Project is ongoing.",
     image: TeamTask,
     tech: ["React", "Express", "MongoDB", "JWT", "Node.js", "Tailwind"],
     github: "https://github.com/rehanraja-webdev/team-task-manager",
@@ -30,7 +30,7 @@ const projects = [
     description:
       "Modern mini GameZone featuring multiple web games based on different login with clean UI and Responsive for all types devices.",
     image: GameZone,
-    tech: ["React", "CSS"],
+    tech: ["React", "CSS", "Router"],
     github: "https://github.com/rehanraja-webdev/Game-Zone",
     live: "https://mini-gamezone.netlify.app/",
   },
