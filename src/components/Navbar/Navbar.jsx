@@ -28,10 +28,6 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-
-      <a href="/resume.pdf" className="resume-btn">
-        Resume
-      </a>
     </nav>
   );
 };

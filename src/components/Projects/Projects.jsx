@@ -2,6 +2,7 @@ import "./Projects.css";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import GameZone from "../../assets/GameZone.png";
 import inknotes from "../../assets/inknotes.png";
+import TeamTask from "../../assets/TeamTask.png";
 
 const projects = [
   {
@@ -18,8 +19,8 @@ const projects = [
     title: "TeamTask",
     description:
       "Industry-level project management platform with authentication, RBAC, task assignment, comments, and team collaboration.",
-    image: "",
-    tech: ["React", "Express", "MongoDB", "JWT"],
+    image: TeamTask,
+    tech: ["React", "Express", "MongoDB", "JWT", "Node.js", "Tailwind"],
     github: "https://github.com/rehanraja-webdev/team-task-manager",
     live: "",
   },

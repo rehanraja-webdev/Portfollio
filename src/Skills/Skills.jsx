@@ -10,7 +10,13 @@ import {
   FaJava,
 } from "react-icons/fa";
 
-import { SiExpress, SiMongodb, SiMongoose, SiPostman } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiExpress,
+  SiMongodb,
+  SiMongoose,
+  SiPostman,
+} from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -51,6 +57,11 @@ const Skills = () => {
         <div className="skill-card">
           <FaReact />
           <span>React</span>
+        </div>
+
+        <div className="skill-card">
+          <SiTailwindcss />
+          <span>Tailwind</span>
         </div>
 
         <div className="skill-card">

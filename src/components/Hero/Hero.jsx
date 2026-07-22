@@ -23,8 +23,10 @@ const Hero = () => {
           </p>
 
           <div className="btn-container">
-            <button className="view-btn">View Projects</button>
-            <button className="download-btn">Download CV</button>
+            <a className="view-btn" href="#projects">
+              View Projects
+            </a>
+            <button className="download-btn">Download Resume</button>
           </div>
 
           <div className="social-links">
